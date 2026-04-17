@@ -1,0 +1,58 @@
+{
+  "id": "mimic-class",
+  "title": "Mimic Class",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>The Mimic is a homebrew Pathfinder class that enables you to copy abilities you witness, much like a blue mage from Final Fantasy, or a Factotum from 3.5e.</p>",
+  "authors": [
+    {
+      "name": "MothmewProductions",
+      "discord": "kexti",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "example-mimic",
+      "label": "Example Mimic-Sparrow",
+      "path": "packs/example-mimic",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "Mimic-Class",
+      "label": "Mimic-Class",
+      "path": "packs/Mimic-Class",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "Mimic-Macros",
+      "label": "Mimic-Macros",
+      "path": "packs/Mimic-Macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
