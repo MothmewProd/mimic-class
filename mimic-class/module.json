@@ -2,6 +2,9 @@
   "id": "mimic-class",
   "title": "Mimic Class",
   "version": "2.0.0",
+  "url": "https://github.com/MothmewProd/mimic-class",
+  "manifest": "https://github.com/MothmewProd/mimic-class/releases/latest/download/module.json",
+  "download": "https://github.com/MothmewProd/mimic-class/releases/v2.0.0/download/mimic-class.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -18,18 +21,6 @@
     "canUpload": true
   },
   "packs": [
-    {
-      "name": "example-mimic",
-      "label": "Example Mimic-Sparrow",
-      "path": "packs/example-mimic",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
     {
       "name": "Mimic-Class",
       "label": "Mimic-Class",
